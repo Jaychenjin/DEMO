@@ -1,0 +1,189 @@
+  <!doctype html>
+<html>
+<head>
+<script src="jquery.js"></script>
+<meta charset="utf-8">
+<title>杭捷简介</title>
+<style>
+*{margin: 0;padding: 0;font-family: "微软雅黑";font-weight: normal;}
+.clearfix{clear: both}
+a{text-decoration: none}
+ul{list-style: none;}
+
+
+
+.yemei_box{background: #171717;border-bottom: 1px solid #7b7777;}
+.yemei{max-width: 1150px;padding: 0 25px;margin: 0 auto;}
+.logo{margin-top: 22px;float: left;margin-right: 65px}
+.daohang {;float: left;}
+.daohang li{float: left;margin: 29px 0 17px;}
+.daohang a{font-size: 14px;color: #9b9aa5;line-height: 54px;padding: 0 30px;transition: padding 0.5s}
+.daohang a:hover{color: #f00;border-bottom: 3px solid red;line-height: 51px}
+.caidan{display: none;;float: right;line-height: 54px;margin: 29px 0 17px;position: relative}
+.caidan a{color: #fff}
+.caidan:hover{color: #f00;}
+.xulie{color: #fff;position: absolute;bottom:-210px;right: -10px;}
+.xulie li{background:#888;border-bottom:1px solid #777;line-height: 30px;padding: 0 10px;text-align: center; width: 80px;}
+.xulie li:hover{background: #c00;color: #111111;border-bottom: 1px solid #c00}
+.xulie a:hover{color: #111111;}
+.xulie a{color:#fff; }
+@media(max-width:990px){.daohang a{padding: 0 20px}}
+@media(max-width:840px){.daohang a{display: none}
+.caidan{display: block}}
+.shouji{float: right;color: #f00;margin-top: 43px;font-size: 18px;font-weight: bold;}
+@media(max-width:1190px){.shouji{display: none}}
+
+
+
+.banner_box{background: url(image/banner.png) no-repeat center top,url(image/heitu.png)}
+
+.banner{color: #fff;max-width: 1150px;padding: 10px 25px;margin: 0 auto;}
+.banner h1{font-size: 30px;font-weight: bold;margin-top: 76px;max-width: 300px}
+.banner h2{font-size: 60px;font-weight: bold;margin-top: 15px;max-width: 300px}
+.banner p{font-size: 12px;margin-top: 20px;line-height: 18px;max-width: 343px}
+.banner input{font-size: 14px;background: #fff;border: none;height: 40px;width: 135px;border-radius: 20px;color: #000;margin-top: 50px;margin-bottom: 20px}
+.banner input:hover{background: #d81b00;color:#fff;}
+@media(max-width:840px){.banner{padding:20px 20px;}}
+
+
+
+.fangshi_box{background: #c81f26}
+.ditu{display: block;margin: 0 auto;width: 100%;}
+.yunshu_box{max-width: 1050px;margin: 0 auto} 
+.yunshu img{width: 100%;}
+.yunshu{float: left;width: calc(100% / 3 - 140px);padding: 0 70px;margin:114px 0 96px}
+.yunshu h1{font-size: 14px;color: #fff;margin-top: 16px;text-align: center}
+.yunshu h2{font-size: 18px;font-weight: bold;color: #fff;margin-top: 6px;text-align: center}
+@media(max-width:900px){.yunshu{width: calc(100% - 140px)}}
+
+.about_box{background: #dfe2d1}
+.about{max-width: 1015px;margin: 0 auto;padding: 10px 20px;overflow: hidden;position: relative}
+.about img{width: 30%;float: left;position: absolute;top:calc(50% - 160px);}
+.about h3{font-size: 14px;max-width: 485px;float: right;}
+.about h2{text-align: center;display: none}
+@media(max-width:900px){.about img{display: none}
+.about h3{float: left;max-width: 900px}
+.about h2{display: block}}
+
+
+
+.dibu_box{background: #1c1c1c;color: #fff;}
+.dibu{max-width: 550px;padding: 10px 20px;margin: 0 auto}
+.dibu h1{font-size: 14px;float: left;margin-right: 20px;line-height: 50px}
+.dibu h2{font-size: 14px;line-height: 50px;}
+.dibu a{color: #fff}
+.dibu a:hover{color: #f00}
+
+</style>
+</head>
+
+<body>
+<div class="yemei_box">
+<div class="yemei">
+<div class="logo">
+<img src="image/logo.png">
+</div>
+<ul class="daohang">
+	<li><a href="hangjie.html" target="_blank">首页</a></li>
+	<li><a href="jianjie.html" target="_blank">公司简介</a></li>
+	<li><a href="shanpinjieshao.html" target="_blank">服务项目</a></li>
+	<li><a href="xinwen.html" target="_blank">新闻中心</a></li>
+	<li><a href="yunshuzhongxin.html" target="_blank">运输路线</a></li>
+	<li><a href="yunli.html" target="_blank">运力展示</a></li>
+	<li><a href="lianxiwomen.html" target="_blank">联系我们</a></li>
+	</ul>
+	<div class="caidan"><a href="#">Navigation</a>
+	<ul class="xulie">
+	<li><a href="hangjie.html" target="_blank">首页</a></li>
+	<li><a href="jianjie.html" target="_blank">公司简介</a></li>
+	<li><a href="shanpinjieshao.html" target="_blank">服务项目</a></li>
+	<li><a href="xinwen.html" target="_blank">新闻中心</a></li>
+	<li><a href="yunshuzhongxin.html" target="_blank">运输路线</a></li>
+	<li><a href="yunli.html" target="_blank">运力展示</a></li>
+	<li><a href="lianxiwomen.html" target="_blank">联系我们</a></li>
+	</ul></div>
+<script>
+$(".xulie").hide()
+$(".caidan").click(function(){
+$(".xulie").show()
+})
+$(".xulie").mouseleave(function(){
+$(this).hide()
+})
+</script>
+<div class="shouji">153-5665-9822</div>
+	<div class="clearfix"></div>
+
+</div>
+
+</div>
+
+<div class="banner_box">
+
+<div class="banner">
+<h1>杭州杭捷运输有限公司</h1>
+<h2>Transport</h2>
+<p> 公司主要以公路运输为主，同时可提供铁路和航 空运输的多式联运，货物仓储包装，流通加工，配送，信息管理，还可以为广大客户提供第三方物流方案设计，咨询，企业物流资源整合的综合性物流服务，并与 太平洋保险公司签定了预约保险合同，对丢失，破损的货物能及时理赔。</p>
+<a href="lianxiwomen.html" target="_blank"><input type="button" value="联系我们"></a>
+
+</div>
+
+</div>
+
+
+
+<div class="fangshi_box">
+
+<div class="yunshu_box">
+<div class="yunshu">
+<img src="image/fangshi1.png">
+<h1>运输方式货运</h1>
+<h2>The freight</h2>
+</div>
+<div class="yunshu">
+<img src="image/fangshi2.png">
+<h1>运输方式货运</h1>
+<h2>The freight</h2>
+</div>
+<div class="yunshu">
+<img src="image/fangshi3.png">
+<h1>运输方式货运</h1>
+<h2>The freight</h2>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+
+<div class="about_box">
+<div class="about">
+
+<img src="image/jianjie.png">
+<h2>公司简介</h2>
+<h3>       &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp杭州杭捷运输有限公司专门从事全国各地运输服务的企业。本公司拥有一批专业的管理 人员和专业的运输队伍，以严格，科学的管理手段，现代化的办公设施，为客户提供最优质的服务。<br>
+      &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp公司主要以公路运输为主，同时可提供铁路和航 空运输的多式联运，货物仓储包装，流通加工，配送，信息管理，还可以为广大客户提供第三方物流方案设计，咨询，企业物流资源整合的综合性物流服务，并与 太平洋保险公司签定了预约保险合同，对丢失，破损的货物能及时理赔。备有专人热线，对货物全程监控，24小时为您提供货物查询，业务咨询，信息反馈，监 督的服务，实现了诚信，准时，安全，便利的服务目标，赢得了全国广大客户的支持和信赖。<br> 
+    &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp  随着公司业务扩展，在全国多个城市设立办事处，并 与国内多家运输公司建立了兄弟联运业务，使公司不断朝集团化，规模化方向发展。<br>
+      &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp热烈期望能结识更多的合作伙伴，相信我们的强强联合将使我 们的商路越走越远!<br>
+      &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp本公司与太平洋保险公司签定了预约保险合同，对丢失，破损的货物能及时理赔。正规发票随时可开，并备有专人热线，对货物全程监控，24小时为您提供货物查询，业务咨询，信息反馈，监督的服务，实现了诚信，准时，安全，便利。<br>
+     &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp 顾客的需求在很大程度上要依靠承运人来实现，因此公司在承运人货物时，综合考虑了速度、弹性并以顾客为中心等因素。为了降低运输成本，应尽量将同一目的地的货物集中在一起进行运送，以达到规模化效益公司在完善物流基础设施的同时，将不断改进服务质量，为客户提供一系列的附加服务，从而提高公司的市场竞争力。由于宝达物流一直坚持这样的经营理念，在过去的五年中公司取得了很好地效益，其业务量年增长率达到30%。<br>
+	  相信良通走到哪里，满意就会走到哪里! </h3>	
+	  </div>
+	  <div class="fangshi_box"></div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="dibu_box">
+<div class="dibu">
+<h1>版权所有 &nbsp&nbsp 2015-2016杭州杭捷运输有限公司 &nbsp&nbsp浙ICP备12045681号</h1>
+<h2><a href="#">【登录入口】</a></h2>
+</div>
+</div>
+</body>
+</html>
+
